@@ -16,7 +16,8 @@ for n = -N:N
 end
 figure(1);
 hold on
-plot(t,real(sr),'-.r',t,imag(sr),'-.r');
+plot(t,real(sr),'-.r');
+ %plot(t,real(sr),'-.r',t,imag(sr),'-.r');
 plot(t,s);
 xlabel("Timpul");
 ylabel("Semnal(t) si semnal.recompus(t)");
